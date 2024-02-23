@@ -63,11 +63,7 @@ resource "databricks_cluster" "shared_autoscaling" {
         }
 
     }
-  library {
-    pypi {
-        package = "fbprophet==0.6"
-        }
-  }
+  
   custom_tags = {
     Department = "Engineering"
   }
