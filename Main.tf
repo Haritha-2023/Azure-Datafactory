@@ -66,7 +66,7 @@ resource "databricks_cluster" "shared_autoscaling" {
   library {
     pypi {
         package = "fbprophet==1.1.2"
-        noBinary = true
+        // noBinary = true
         }
    }
   
